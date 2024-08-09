@@ -102,7 +102,7 @@ print(response.json())
 #### Sample Output
 ```json
 {
-    "sentence": "I love this product!",
+    "sentence": "We Must Suport Mr Anies To Become President !",
     "sentiment": "positive"
 }
 ```
