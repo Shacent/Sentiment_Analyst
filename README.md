@@ -88,14 +88,14 @@ The API will be accessible at http://127.0.0.1:5000.
 
 ### cURL Example
 ```python
-curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d '{"sentence": "I love this product!"}'
+curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d '{"sentence": "We Must Suport Mr Anies To Become President !"}'
 ```
 ### Python Example
 ```python
 import requests
 
 url = "http://127.0.0.1:5000/predict"
-data = {"sentence": "I love this product!"}
+data = {"sentence": "We Must Suport Mr Anies To Become President !"}
 response = requests.post(url, json=data)
 print(response.json())
 ```
